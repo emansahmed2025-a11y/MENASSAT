@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>منصّات للتقييم العقاري | الدقة التي تصنع قيمة العقار</title>
+  <meta name="description" content="شركة سعودية متخصصة في خدمات التقييم العقاري الاحترافية عالية الدقة وفق المعايير المعترف بها محليًا ودوليًا.">
+  <meta name="theme-color" content="#141a3f">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="منصّات للتقييم العقاري | Menassat Real Estate Valuation">
+  <meta property="og:description" content="الدقة التي تصنع قيمة العقار — خدمات تقييم عقاري احترافية وفق المعايير المعترف بها محليًا ودوليًا.">
+  <meta property="og:image" content="assets/logo.png">
+  <meta property="og:locale" content="ar_SA">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Favicon (SVG مدمج — استبدله بـ assets/favicon.png عند توفره، انظر README) -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23141a3f'/%3E%3Cpath d='M18 12h9v40h-9z' fill='%2310b7a3'/%3E%3Cpath d='M31 26h13v26H31z' fill='%233b4bdb'/%3E%3C/svg%3E">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Montserrat:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="intro-open">
+
+  <a class="skip-link" href="#main" data-i18n="a11y.skip">تجاوز إلى المحتوى</a>
+
+  <!-- ============ SVG Sprite ============ -->
+  <svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+    <symbol id="i-chevron" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12l5 5L20 7"/></symbol>
+    <symbol id="i-eye" viewBox="0 0 24 24"><path d="M2 12s3.5-6 10-6 10 6 10 6-3.5 6-10 6S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></symbol>
+    <symbol id="i-quality" viewBox="0 0 24 24"><circle cx="12" cy="9" r="5"/><path d="M8.5 13.5L7 21l5-2.5L17 21l-1.5-7.5"/></symbol>
+    <symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c0-3.6 2.9-6 6.5-6s6.5 2.4 6.5 6"/><circle cx="17" cy="9" r="2.8"/><path d="M16.5 14.3c2.6.5 5 2.6 5 5.7"/></symbol>
+    <symbol id="i-bulb" viewBox="0 0 24 24"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.6 10.8c.7.6 1.1 1.3 1.3 2.2h4.6c.2-.9.6-1.6 1.3-2.2A6 6 0 0 0 12 3z"/></symbol>
+    <symbol id="i-income" viewBox="0 0 24 24"><path d="M3 17l6-6 4 4 8-8M15 7h6v6"/></symbol>
+    <symbol id="i-cost" viewBox="0 0 24 24"><path d="M12 3l9 5-9 5-9-5 9-5z"/><path d="M3 13.5l9 5 9-5M3 17.5l9 5 9-5"/></symbol>
+    <symbol id="i-market" viewBox="0 0 24 24"><path d="M5 20v-6M10 20V8M15 20v-9M20 20V5M3 20h18"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 4h4l1.5 4L8 10a12 12 0 0 0 6 6l2-2.5 4 1.5v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></symbol>
+    <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3.5 3 14.5 0 18M12 3c-3 3.5-3 14.5 0 18"/></symbol>
+    <symbol id="i-license" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="8.5" cy="11" r="2"/><path d="M5.5 16c.5-1.6 1.7-2.5 3-2.5s2.5.9 3 2.5M14 9h5M14 13h5"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 4.5-3.4 7.8-8 9-4.6-1.2-8-4.5-8-9V6l8-3z"/><path d="M9 12l2 2 4-4"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+    <symbol id="i-send" viewBox="0 0 24 24"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></symbol>
+    <symbol id="i-building" viewBox="0 0 24 24"><rect x="5" y="3" width="9" height="18"/><path d="M8 7h1M11 7h1M8 11h1M11 11h1M8 15h1M11 15h1M14 21V9h5v12M3 21h18"/></symbol>
+    <symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4.5"/><path d="M12 12h.01"/></symbol>
+    <symbol id="i-flag" viewBox="0 0 24 24"><path d="M5 21V4M5 4c4-2 7 2 12 0v8c-5 2-8-2-12 0"/></symbol>
+    <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7.5v.01M12 11v5"/></symbol>
+    <symbol id="i-at" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3.5"/><path d="M15.5 12v1.5a2.5 2.5 0 0 0 5 0V12a8.5 8.5 0 1 0-3.4 6.8"/></symbol>
+    <symbol id="i-doc" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6z"/><path d="M14 2v6h6M9 13h6M9 17h6"/></symbol>
+  </svg>
+
+  <!-- ============ Opening / Logo Reveal ============ -->
+  <div id="intro" class="intro" role="dialog" aria-label="منصّات للتقييم العقاري">
+    <div class="intro-center">
+      <div class="intro-logo" data-media>
+        <img id="introLogo" src=".vscode/Asset 15.png" alt="شعار منصّات للتقييم العقاري" data-fallback>
+        <span class="logo-fallback" aria-hidden="true"><b>منصّات</b><i>MENASSAT</i></span>
+      </div>
+      <div class="intro-line" aria-hidden="true"></div>
+      <h2 class="intro-name-ar">منصّات للتقييم العقاري</h2>
+      <p class="intro-name-en">MENASSAT<span>REAL ESTATE VALUATION</span></p>
+      <p class="intro-tagline" data-i18n="hero.tagline">الدقة التي تصنع قيمة العقار</p>
+    </div>
+    <button id="introSkip" class="intro-skip" type="button" data-i18n="intro.skip">تخطي</button>
+    <div class="intro-bar" aria-hidden="true"></div>
+  </div>
+  <noscript><style>#intro{display:none}.site-in [data-hero]{opacity:1;transform:none}</style></noscript>
+
+  <!-- ============ Navbar ============ -->
+  <header class="nav" id="siteNav">
+    <div class="container nav-inner">
+      <a href="#home" class="brand" data-media aria-label="منصّات للتقييم العقاري — الرئيسية">
+        <img src="assets/logo.png" alt="شعار منصّات للتقييم العقاري" class="brand-logo" data-fallback>
+        <span class="logo-fallback" aria-hidden="true"><b>منصّات</b><i>MENASSAT</i></span>
+      </a>
+
+      <nav class="nav-links" aria-label="التنقل الرئيسي" data-i18n-aria="aria.nav">
+        <ul>
+          <li><a class="nav-link" href="#home" data-i18n="nav.home">الرئيسية</a></li>
+          <li><a class="nav-link" href="#about" data-i18n="nav.about">من نحن</a></li>
+          <li><a class="nav-link" href="#vision" data-i18n="nav.vision">رؤيتنا</a></li>
+          <li><a class="nav-link" href="#mission" data-i18n="nav.mission">رسالتنا</a></li>
+          <li><a class="nav-link" href="#values" data-i18n="nav.values">قيمنا</a></li>
+          <li><a class="nav-link" href="#services" data-i18n="nav.services">خدماتنا</a></li>
+          <li><a class="nav-link" href="#process" data-i18n="nav.process">مراحل التقييم</a></li>
+          <li><a class="nav-link" href="#accreditations" data-i18n="nav.accreditations">الاعتمادات</a></li>
+          <li><a class="nav-link" href="#achievements" data-i18n="nav.achievements">الإنجازات</a></li>
+          <li><a class="nav-link" href="#contact" data-i18n="nav.contact">تواصل معنا</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <div class="lang-switch" role="group" aria-label="Language / اللغة">
+          <button type="button" class="lang-btn active" data-lang="ar">العربية</button>
+          <span class="lang-sep" aria-hidden="true"></span>
+          <button type="button" class="lang-btn" data-lang="en">English</button>
+        </div>
+        <a href="#contact" class="btn btn-primary btn-sm nav-cta" data-i18n="nav.cta">طلب تقييم عقاري</a>
+        <button type="button" class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="mobileMenu" aria-label="فتح القائمة">
+          <svg class="icon ic-open" aria-hidden="true"><use href="#i-menu"/></svg>
+          <svg class="icon ic-close" aria-hidden="true"><use href="#i-close"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <div class="mobile-menu" id="mobileMenu">
+      <nav aria-label="قائمة الجوال">
+        <ul>
+          <li><a class="nav-link" href="#home" data-i18n="nav.home">الرئيسية</a></li>
+          <li><a class="nav-link" href="#about" data-i18n="nav.about">من نحن</a></li>
+          <li><a class="nav-link" href="#vision" data-i18n="nav.vision">رؤيتنا</a></li>
+          <li><a class="nav-link" href="#mission" data-i18n="nav.mission">رسالتنا</a></li>
+          <li><a class="nav-link" href="#values" data-i18n="nav.values">قيمنا</a></li>
+          <li><a class="nav-link" href="#services" data-i18n="nav.services">خدماتنا</a></li>
+          <li><a class="nav-link" href="#process" data-i18n="nav.process">مراحل التقييم</a></li>
+          <li><a class="nav-link" href="#accreditations" data-i18n="nav.accreditations">الاعتمادات</a></li>
+          <li><a class="nav-link" href="#achievements" data-i18n="nav.achievements">الإنجازات</a></li>
+          <li><a class="nav-link" href="#contact" data-i18n="nav.contact">تواصل معنا</a></li>
+        </ul>
+      </nav>
+      <a href="#contact" class="btn btn-primary mm-cta" data-i18n="nav.cta">طلب تقييم عقاري</a>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ Hero ============ -->
+    <section id="home" class="hero">
+      <div class="hero-bg" aria-hidden="true">
+        <img class="hero-img" src="assets/images/hero.jpg" alt="" loading="eager" data-fallback>
+        <div class="hero-overlay"></div>
+      </div>
+
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <p class="hero-kicker" data-hero><span class="kicker-line" aria-hidden="true"></span><span data-i18n="hero.kicker">شركة سعودية متخصصة في التقييم العقاري</span></p>
+          <h1 data-hero data-i18n="hero.title">منصّات للتقييم العقاري</h1>
+          <p class="hero-tagline" data-hero data-i18n="hero.tagline">الدقة التي تصنع قيمة العقار</p>
+          <p class="hero-desc" data-hero data-i18n="hero.desc">نقدّم خدمات تقييم عقاري احترافية عالية الدقة وفق المعايير المعترف بها محليًا ودوليًا، لتكون أساسًا موثوقًا يدعم قرارات البيع والشراء والتمويل والاستثمار.</p>
+          <div class="hero-cta" data-hero>
+            <a href="#contact" class="btn btn-primary btn-lg"><span data-i18n="hero.cta1">اطلب تقييمًا عقاريًا</span><svg class="icon icon-arrow" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+            <a href="#about" class="btn btn-ghost btn-lg" data-i18n="hero.cta2">تعرّف علينا</a>
+          </div>
+          <ul class="hero-trust" data-hero>
+            <li><svg class="icon" aria-hidden="true"><use href="#i-license"/></svg><span data-i18n="trust.license">رخصة تقييم عقاري</span><b class="ltr">13044</b></li>
+            <li><svg class="icon" aria-hidden="true"><use href="#i-shield"/></svg><span data-i18n="trust.membership">عضوية الهيئة السعودية للمقيّمين المعتمدين</span><b class="ltr">1210000163</b></li>
+            <li><svg class="icon" aria-hidden="true"><use href="#i-globe"/></svg><span data-i18n="trust.rics">عضوية RICS — MRICS</span></li>
+          </ul>
+        </div>
+
+        <!-- Blueprint هندسي -->
+        <div class="hero-visual" data-hero aria-hidden="true">
+          <svg class="blueprint" viewBox="0 0 520 440" fill="none">
+            <defs>
+              <pattern id="bpGrid" width="32" height="32" patternUnits="userSpaceOnUse">
+                <path d="M32 0H0V32" fill="none" stroke="rgba(255,255,255,.07)" stroke-width="1"/>
+              </pattern>
+            </defs>
+            <rect x="10" y="10" width="500" height="420" fill="url(#bpGrid)" stroke="rgba(255,255,255,.14)"/>
+            <path class="bp draw" pathLength="1" d="M110 370V150l60-40v260" stroke="#2dd4bf" stroke-width="2"/>
+            <path class="bp draw" pathLength="1" d="M170 200h90v170M170 240h90M170 285h90M170 325h90" stroke="rgba(255,255,255,.5)" stroke-width="1.5"/>
+            <path class="bp draw" pathLength="1" d="M300 370V240l80-30v160" stroke="#7c8cf8" stroke-width="2"/>
+            <path class="bp draw" pathLength="1" d="M320 270h40M320 305h40M320 340h40" stroke="rgba(255,255,255,.4)" stroke-width="1.5"/>
+            <path class="bp draw" pathLength="1" d="M60 396h400" stroke="rgba(255,255,255,.35)" stroke-width="1"/>
+            <path class="bp draw" pathLength="1" d="M60 388v16M460 388v16" stroke="rgba(255,255,255,.35)" stroke-width="1"/>
+            <text class="bp-text" x="238" y="418">42.00 m</text>
+            <path class="bp draw" pathLength="1" d="M492 150v220M484 150h16M484 370h16" stroke="rgba(255,255,255,.35)" stroke-width="1"/>
+            <text class="bp-text" x="500" y="265" transform="rotate(90 500 265)">36.50 m</text>
+            <path class="bp draw" pathLength="1" d="M40 40h20M50 30v20" stroke="#2dd4bf" stroke-width="1.5"/>
+            <path class="bp draw" pathLength="1" d="M455 60h20M465 50v20" stroke="#2dd4bf" stroke-width="1.5"/>
+            <circle class="bp draw" pathLength="1" cx="260" cy="90" r="14" stroke="rgba(255,255,255,.4)" stroke-width="1.5"/>
+            <circle cx="260" cy="90" r="3" fill="#2dd4bf"/>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ About ============ -->
+    <section id="about" class="section">
+      <div class="container grid-2">
+        <div class="about-content" data-animate>
+          <p class="kicker"><span data-i18n="about.kicker">من نحن</span></p>
+          <h2 data-i18n="about.title">خبرة عقارية تُبنى على الدقة والمعايير المعتمدة</h2>
+          <p class="lead" data-i18n="about.p1">منصّات للتقييم العقاري شركة سعودية متخصصة في تقديم خدمات التقييم العقاري الاحترافية عالية الدقة، مع الالتزام بالمعايير المعترف بها محليًا ودوليًا.</p>
+          <p data-i18n="about.p2">نحوّل دراسة الموقع وحالة العقار ومؤشرات السوق إلى تقارير تقييم واضحة ومهنية، تمنح عملاءنا صورة دقيقة تدعم قراراتهم بثقة.</p>
+          <ul class="points">
+            <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg><span data-i18n="about.pt1">دقة التقييم</span></li>
+            <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg><span data-i18n="about.pt2">تحليل شامل للعقار</span></li>
+            <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg><span data-i18n="about.pt3">فهم الموقع والحالة والقيمة السوقية</span></li>
+            <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg><span data-i18n="about.pt4">تقارير احترافية</span></li>
+            <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg><span data-i18n="about.pt5">دعم قرارات البيع والشراء والتمويل والاستثمار</span></li>
+          </ul>
+        </div>
+        <div class="about-aside" data-animate data-delay="150">
+          <div class="media about-media" data-media aria-hidden="true">
+            <img src="assets/images/about.jpg" alt="" loading="lazy" decoding="async" data-fallback>
+            <svg class="about-pattern" viewBox="0 0 400 420" fill="none">
+              <rect x="20" y="20" width="360" height="380" stroke="rgba(59,75,219,.18)"/>
+              <path d="M20 110h360M20 200h360M20 290h360M110 20v380M200 20v380M290 20v380" stroke="rgba(59,75,219,.12)"/>
+              <path d="M120 340V160l55-35v215M205 340V210l85-30v160" stroke="#3b4bdb" stroke-width="2"/>
+              <path d="M120 220h60M120 265h60M120 305h60" stroke="#10b7a3" stroke-width="2"/>
+              <path d="M40 375h320" stroke="rgba(20,26,63,.25)" stroke-dasharray="4 6"/>
+            </svg>
+          </div>
+          <div class="float-badge">
+            <svg class="icon" aria-hidden="true"><use href="#i-license"/></svg>
+            <div><b class="ltr">13044</b><span data-i18n="about.badge.t">رخصة تقييم عقاري</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Goal ============ -->
+    <section id="goal" class="section section-alt">
+      <div class="container">
+        <div class="goal-card" data-animate>
+          <span class="goal-icon" aria-hidden="true"><svg class="icon"><use href="#i-target"/></svg></span>
+          <div>
+            <h2 class="kicker" data-i18n="goal.kicker">هدفنا</h2>
+            <p class="goal-text" data-i18n="goal.text">تقديم قيمة مضافة وخدمة موثوقة تلبي احتياجاتك العقارية.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Vision ============ -->
+    <section id="vision" class="section">
+      <div class="container grid-2 media-row">
+        <div class="media vision-media" data-media data-animate>
+          <img src="assets/images/vision.jpg" alt="" loading="lazy" decoding="async" data-fallback>
+          <svg class="skyline" viewBox="0 0 480 360" fill="none" aria-hidden="true">
+            <path d="M0 360V240l40-14v134M60 360V200l50-18v178M130 360V150l55-20v230" fill="rgba(45,212,191,.14)"/>
+            <path d="M130 360V150l55-20v230M205 360V230l45-14v144M270 360V180l60-22v202M350 360V260l55-16v116M425 360V220l55-16v156" stroke="#2dd4bf" stroke-width="1.5"/>
+            <path d="M0 360h480" stroke="rgba(255,255,255,.4)"/>
+            <path d="M145 175h25M145 205h25M145 235h25M285 215h30M285 250h30M285 285h30M365 285h25M440 250h25" stroke="rgba(255,255,255,.45)" stroke-width="1.5"/>
+            <circle cx="60" cy="70" r="26" stroke="rgba(255,255,255,.3)" stroke-dasharray="3 6"/>
+          </svg>
+        </div>
+        <div class="vm-text" data-animate data-delay="150">
+          <h2 class="kicker" data-i18n="vision.kicker">رؤيتنا</h2>
+          <p class="statement" data-i18n="vision.text">أن نصبح روّاد التقييم العقاري في المملكة العربية السعودية ومنطقة الخليج العربي.</p>
+          <span class="accent-line" aria-hidden="true"></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Mission ============ -->
+    <section id="mission" class="section section-alt">
+      <div class="container narrow">
+        <div class="mission-card" data-animate>
+          <span class="goal-icon" aria-hidden="true"><svg class="icon"><use href="#i-flag"/></svg></span>
+          <div>
+            <h2 class="kicker" data-i18n="mission.kicker">رسالتنا</h2>
+            <p class="statement" data-i18n="mission.text">تقديم خدمات تقييم عقاري بمعايير عالمية تعتمد على الابتكار وأخلاقيات العمل والدقة، مع الالتزام بالمهنية التامة.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Values ============ -->
+    <section id="values" class="section">
+      <div class="container">
+        <div class="section-head" data-animate>
+          <p class="kicker"><span data-i18n="values.kicker">قيمنا</span></p>
+          <h2 data-i18n="values.title">المبادئ التي تحكم عملنا</h2>
+        </div>
+        <div class="cards-4">
+          <article class="value-card" data-animate>
+            <span class="card-ic" aria-hidden="true"><svg class="icon"><use href="#i-eye"/></svg></span>
+            <h3 data-i18n="v1.t">الشفافية</h3>
+            <p data-i18n="v1.d">تقديم تقارير واضحة ودقيقة تدعم قرارات عملائنا.</p>
+          </article>
+          <article class="value-card" data-animate data-delay="100">
+            <span class="card-ic" aria-hidden="true"><svg class="icon"><use href="#i-quality"/></svg></span>
+            <h3 data-i18n="v2.t">الجودة</h3>
+            <p data-i18n="v2.d">الالتزام بأعلى معايير الجودة في جميع مراحل العمل.</p>
+          </article>
+          <article class="value-card" data-animate data-delay="200">
+            <span class="card-ic" aria-hidden="true"><svg class="icon"><use href="#i-users"/></svg></span>
+            <h3 data-i18n="v3.t">العملاء أولًا</h3>
+            <p data-i18n="v3.d">التركيز على تلبية احتياجات العملاء بما يعزز ثقتهم ورضاهم.</p>
+          </article>
+          <article class="value-card" data-animate data-delay="300">
+            <span class="card-ic" aria-hidden="true"><svg class="icon"><use href="#i-bulb"/></svg></span>
+            <h3 data-i18n="v4.t">الابتكار</h3>
+            <p data-i18n="v4.d">توظيف أحدث التقنيات لتعزيز الكفاءة والدقة.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Experience Counter ============ -->
+    <section id="experience" class="band">
+      <div class="container band-inner" data-animate>
+        <div class="exp-figure">
+          <span class="exp-num ltr" id="expCounter" data-count="224600">0</span><span class="exp-plus">+</span>
+        </div>
+        <p class="exp-label" data-i18n="exp.label">ساعات الخبرة</p>
+      </div>
+    </section>
+
+    <!-- ============ CEO Message ============ -->
+    <section id="ceo" class="section">
+      <div class="container grid-2">
+        <div class="media ceo-media" data-media data-animate>
+          <img src="assets/images/ceo.jpg" alt="" loading="lazy" decoding="async" data-fallback>
+          <span class="ceo-monogram" aria-hidden="true">KM</span>
+        </div>
+        <div class="ceo-content" data-animate data-delay="150">
+          <h2 class="kicker" data-i18n="ceo.kicker">كلمة الرئيس التنفيذي</h2>
+          <blockquote class="ceo-quote">
+            <!-- ✎ ضع هنا نص رسالة الرئيس التنفيذي كما ورد في ملف الشركة التعريفي -->
+            <p data-i18n="ceo.msg">«يُدرج هنا نص رسالة الرئيس التنفيذي كما ورد في ملف الشركة التعريفي (Company Profile).»</p>
+          </blockquote>
+          <p class="ceo-name" data-i18n="ceo.name">خالد بن شاكر المبيض</p>
+          <p class="ceo-role" data-i18n="ceo.role">الرئيس التنفيذي</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Certifications ============ -->
+    <section id="accreditations" class="section section-alt">
+      <div class="container">
+        <div class="section-head" data-animate>
+          <p class="kicker"><span data-i18n="cert.kicker">الاعتمادات</span></p>
+          <h2 data-i18n="cert.title">التراخيص والاعتمادات المهنية</h2>
+        </div>
+
+        <div class="cert-grid">
+          <article class="cert-card" data-animate>
+            <header class="cert-head">
+              <span class="cert-ic" aria-hidden="true"><svg class="icon"><use href="#i-license"/></svg></span>
+              <div><h3 data-i18n="cert1.t">رخصة التقييم العقاري</h3><span class="tag" data-i18n="tag.license">ترخيص</span></div>
+            </header>
+            <dl class="cert-rows">
+              <div><dt data-i18n="lbl.licenseNo">رقم الرخصة</dt><dd class="ltr">13044</dd></div>
+              <div><dt data-i18n="lbl.member">العضو</dt><dd data-i18n="cert1.member">خالد شاكر بن حامد المبيض</dd></div>
+              <div><dt data-i18n="lbl.issue">تاريخ الإصدار</dt><dd data-i18n="cert1.issue">1447/04/04هـ</dd></div>
+              <div><dt data-i18n="lbl.expiry">تاريخ الانتهاء</dt><dd data-i18n="cert1.expiry">1452/05/27هـ</dd></div>
+              <div><dt data-i18n="lbl.version">إصدار الرخصة</dt><dd class="ltr">3</dd></div>
+            </dl>
+          </article>
+
+          <article class="cert-card" data-animate data-delay="80">
+            <header class="cert-head">
+              <span class="cert-ic" aria-hidden="true"><svg class="icon"><use href="#i-shield"/></svg></span>
+              <div><h3 data-i18n="cert2.t">زمالة الهيئة السعودية للمقيّمين المعتمدين</h3><span class="tag" data-i18n="tag.membership">عضوية</span></div>
+            </header>
+            <dl class="cert-rows">
+              <div><dt data-i18n="lbl.membershipNo">رقم العضوية</dt><dd class="ltr">1210000163</dd></div>
+              <div><dt data-i18n="lbl.sector">القطاع</dt><dd data-i18n="cert2.sector">القطاع العقاري</dd></div>
+              <div><dt data-i18n="lbl.date">التاريخ</dt><dd class="ltr">11-04-2022</dd></div>
+              <div><dt data-i18n="lbl.certNo">رقم الشهادة</dt><dd class="ltr">220199FR</dd></div>
+            </dl>
+          </article>
+
+          <article class="cert-card" data-animate data-delay="160">
+            <header class="cert-head">
+              <span class="cert-ic" aria-hidden="true"><svg class="icon"><use href="#i-doc"/></svg></span>
+              <div><h3 data-i18n="cert3.t">السجل التجاري</h3><span class="tag" data-i18n="tag.registry">سجل تجاري</span></div>
+            </header>
+            <dl class="cert-rows">
+              <div><dt data-i18n="lbl.company">اسم الشركة</dt><dd data-i18n="cert3.company">شركة منصّات للتقييم العقاري</dd></div>
+              <div><dt data-i18n="lbl.unifiedNo">الرقم الوطني الموحّد</dt><dd class="ltr">7002867906</dd></div>
+              <div><dt data-i18n="lbl.issue">تاريخ الإصدار</dt><dd class="ltr">12/04/2018</dd></div>
+              <div><dt data-i18n="lbl.legalForm">الشكل القانوني</dt><dd data-i18n="cert3.legal">شركة ذات مسؤولية محدودة</dd></div>
+              <div><dt data-i18n="lbl.entity">نوع الكيان</dt><dd data-i18n="cert3.entity">كيان مهني</dd></div>
+              <div><dt data-i18n="lbl.status">الحالة</dt><dd><span class="pill" data-i18n="cert3.status">نشط</span></dd></div>
+            </dl>
+          </article>
+
+          <article class="cert-card" data-animate data-delay="240">
+            <header class="cert-head">
+              <span class="cert-ic" aria-hidden="true"><svg class="icon"><use href="#i-globe"/></svg></span>
+              <div><h3>RICS</h3><span class="tag" data-i18n="tag.intl">عضوية دولية</span></div>
+            </header>
+            <dl class="cert-rows">
+              <div><dt data-i18n="lbl.member">العضو</dt><dd class="ltr">Khaled Almobid</dd></div>
+              <div><dt data-i18n="lbl.membershipNo">رقم العضوية</dt><dd class="ltr">0863764</dd></div>
+              <div><dt data-i18n="lbl.designation">الرتبة</dt><dd class="ltr">MRICS</dd></div>
+              <div><dt data-i18n="lbl.validity">مدة الصلاحية</dt><dd data-i18n="cert4.validity">1 يناير 2026 – 31 ديسمبر 2026</dd></div>
+            </dl>
+          </article>
+
+          <article class="cert-card" data-animate data-delay="320">
+            <header class="cert-head">
+              <span class="cert-ic" aria-hidden="true"><svg class="icon"><use href="#i-quality"/></svg></span>
+              <div><h3 data-i18n="cert5.t">التصنيف طويل الأجل — TASSNIEF / سِما</h3><span class="tag" data-i18n="tag.rating">تصنيف</span></div>
+            </header>
+            <dl class="cert-rows">
+              <div><dt data-i18n="lbl.rating">التصنيف</dt><dd class="ltr">3+VFR</dd></div>
+              <div><dt data-i18n="lbl.outlook">التوقعات</dt><dd data-i18n="cert5.outlook">إيجابية</dd></div>
+              <div><dt data-i18n="lbl.issue">تاريخ الإصدار</dt><dd data-i18n="cert5.issued">يناير 2025</dd></div>
+              <div><dt data-i18n="lbl.expiry">تاريخ الانتهاء</dt><dd data-i18n="cert5.expiry">يناير 2026</dd></div>
+              <div><dt data-i18n="lbl.serial">الرقم التسلسلي</dt><dd class="ltr">1010952152012025</dd></div>
+            </dl>
+          </article>
+        </div>
+
+        <p class="legal-note" data-animate>
+          <svg class="icon" aria-hidden="true"><use href="#i-info"/></svg>
+          <span data-i18n="cert.note">ملاحظة: التقييم عبارة عن رأي وتقييم، وليس توصية بشراء أو الاحتفاظ أو بيع الأوراق المالية.</span>
+        </p>
+      </div>
+    </section>
+
+    <!-- ============ Services ============ -->
+    <section id="services" class="section">
+      <div class="container">
+        <div class="section-head" data-animate>
+          <p class="kicker"><span data-i18n="services.kicker">خدماتنا</span></p>
+          <h2 data-i18n="services.title">خدمات التقييم العقاري</h2>
+          <p class="lead" data-i18n="services.lead">نعتمد ثلاث طرق معتمدة للوصول إلى القيمة العادلة للعقار:</p>
+        </div>
+        <div class="cards-3">
+          <article class="service-card" data-animate>
+            <span class="card-ic" aria-hidden="true"><svg class="icon"><use href="#i-income"/></svg></span>
+            <h3><span class="show-ar">طريقة الدخل</span><span class="show-en">Income Approach</span></h3>
+            <p class="card-sub"><span class="show-en">Income Approach</span><span class="show-ar">طريقة الدخل</span></p>
+            <p data-i18n="s1.d">تعتمد على العائد المالي المتوقع من العقار، مثل الإيجارات السنوية.</p>
+          </article>
+          <article class="service-card" data-animate data-delay="100">
+            <span class="card-ic" aria-hidden="true"><svg class="icon"><use href="#i-cost"/></svg></span>
+            <h3><span class="show-ar">طريقة التكلفة</span><span class="show-en">Cost Approach</span></h3>
+            <p class="card-sub"><span class="show-en">Cost Approach</span><span class="show-ar">طريقة التكلفة</span></p>
+            <p data-i18n="s2.d">تعتمد على تكلفة إعادة البناء بالإضافة إلى قيمة الأرض.</p>
+          </article>
+          <article class="service-card" data-animate data-delay="200">
+            <span class="card-ic" aria-hidden="true"><svg class="icon"><use href="#i-market"/></svg></span>
+            <h3><span class="show-ar">طريقة السوق والمقارنة</span><span class="show-en">Market Approach</span></h3>
+            <p class="card-sub"><span class="show-en">Market / Comparison Approach</span><span class="show-ar">طريقة السوق / المقارنة</span></p>
+            <p data-i18n="s3.d">مقارنة العقار بعقارات مشابهة تم بيعها مؤخرًا في المنطقة نفسها، مع مراعاة الموقع والمساحة والحالة.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Valuation Process ============ -->
+    <section id="process" class="section section-alt">
+      <div class="container narrow">
+        <div class="section-head" data-animate>
+          <p class="kicker"><span data-i18n="process.kicker">كيف نعمل</span></p>
+          <h2 data-i18n="process.title">مراحل عملية التقييم</h2>
+          <p class="lead" data-i18n="process.hint">اضغط على أي مرحلة لعرض التفاصيل.</p>
+        </div>
+
+        <ol class="timeline">
+          <!-- ✎ تفاصيل كل مرحلة مكتوبة بصياغة مطابقة لعنوانها — استبدلها بالنص الحرفي من ملف الـPDF عند توفره -->
+          <li class="tl-item open" data-animate>
+            <div class="tl-marker"><span class="ltr">01</span></div>
+            <article class="tl-card">
+              <button type="button" class="tl-head" aria-expanded="true" aria-controls="tl-d1">
+                <span class="tl-title" data-i18n="pr1.t">التواصل مع العميل</span>
+                <svg class="icon tl-chev" aria-hidden="true"><use href="#i-chevron"/></svg>
+              </button>
+              <div class="tl-details" id="tl-d1" role="region"><div class="tl-details-inner"><p data-i18n="pr1.d">تواصل أولي مع العميل لفهم احتياجه ونوع العقار المطلوب تقييمه.</p></div></div>
+            </article>
+          </li>
+          <li class="tl-item" data-animate>
+            <div class="tl-marker"><span class="ltr">02</span></div>
+            <article class="tl-card">
+              <button type="button" class="tl-head" aria-expanded="false" aria-controls="tl-d2">
+                <span class="tl-title" data-i18n="pr2.t">استلام المستندات</span>
+                <svg class="icon tl-chev" aria-hidden="true"><use href="#i-chevron"/></svg>
+              </button>
+              <div class="tl-details" id="tl-d2" role="region"><div class="tl-details-inner"><p data-i18n="pr2.d">استلام المستندات والمعلومات الأساسية المتعلقة بالعقار.</p></div></div>
+            </article>
+          </li>
+          <li class="tl-item" data-animate>
+            <div class="tl-marker"><span class="ltr">03</span></div>
+            <article class="tl-card">
+              <button type="button" class="tl-head" aria-expanded="false" aria-controls="tl-d3">
+                <span class="tl-title" data-i18n="pr3.t">دراسة العقار</span>
+                <svg class="icon tl-chev" aria-hidden="true"><use href="#i-chevron"/></svg>
+              </button>
+              <div class="tl-details" id="tl-d3" role="region"><div class="tl-details-inner"><p data-i18n="pr3.d">دراسة أولية للعقار وخصائصه قبل بدء الإجراءات.</p></div></div>
+            </article>
+          </li>
+          <li class="tl-item" data-animate>
+            <div class="tl-marker"><span class="ltr">04</span></div>
+            <article class="tl-card">
+              <button type="button" class="tl-head" aria-expanded="false" aria-controls="tl-d4">
+                <span class="tl-title" data-i18n="pr4.t">تحديد نطاق العمل والأتعاب وتصدير عرض السعر</span>
+                <svg class="icon tl-chev" aria-hidden="true"><use href="#i-chevron"/></svg>
+              </button>
+              <div class="tl-details" id="tl-d4" role="region"><div class="tl-details-inner"><p data-i18n="pr4.d">تحديد نطاق العمل والأتعاب، وتصدير عرض السعر للعميل.</p></div></div>
+            </article>
+          </li>
+          <li class="tl-item" data-animate>
+            <div class="tl-marker"><span class="ltr">05</span></div>
+            <article class="tl-card">
+              <button type="button" class="tl-head" aria-expanded="false" aria-controls="tl-d5">
+                <span class="tl-title" data-i18n="pr5.t">التعاقد مع العميل</span>
+                <svg class="icon tl-chev" aria-hidden="true"><use href="#i-chevron"/></svg>
+              </button>
+              <div class="tl-details" id="tl-d5" role="region"><div class="tl-details-inner"><p data-i18n="pr5.d">توقيع اتفاقية العمل وتحديد الالتزامات المتبادلة.</p></div></div>
+            </article>
+          </li>
+          <li class="tl-item" data-animate>
+            <div class="tl-marker"><span class="ltr">06</span></div>
+            <article class="tl-card">
+              <button type="button" class="tl-head" aria-expanded="false" aria-controls="tl-d6">
+                <span class="tl-title" data-i18n="pr6.t">توجيه المقيم لمعاينة العقار</span>
+                <svg class="icon tl-chev" aria-hidden="true"><use href="#i-chevron"/></svg>
+              </button>
+              <div class="tl-details" id="tl-d6" role="region"><div class="tl-details-inner"><p data-i18n="pr6.d">زيارة ميدانية يقوم بها المقيم لمعاينة العقار.</p></div></div>
+            </article>
+          </li>
+          <li class="tl-item" data-animate>
+            <div class="tl-marker"><span class="ltr">07</span></div>
+            <article class="tl-card">
+              <button type="button" class="tl-head" aria-expanded="false" aria-controls="tl-d7">
+                <span class="tl-title" data-i18n="pr7.t">جمع وتحليل البيانات</span>
+                <svg class="icon tl-chev" aria-hidden="true"><use href="#i-chevron"/></svg>
+              </button>
+              <div class="tl-details" id="tl-d7" role="region"><div class="tl-details-inner"><p data-i18n="pr7.d">جمع بيانات العقار والسوق وتحليلها بعناية.</p></div></div>
+            </article>
+          </li>
+          <li class="tl-item" data-animate>
+            <div class="tl-marker"><span class="ltr">08</span></div>
+            <article class="tl-card">
+              <button type="button" class="tl-head" aria-expanded="false" aria-controls="tl-d8">
+                <span class="tl-title" data-i18n="pr8.t">استخلاص القيمة بأحد طرق التقييم</span>
+                <svg class="icon tl-chev" aria-hidden="true"><use href="#i-chevron"/></svg>
+              </button>
+              <div class="tl-details" id="tl-d8" role="region"><div class="tl-details-inner"><p data-i18n="pr8.d">تطبيق أحد أساليب التقييم المعتمدة للوصول إلى القيمة.</p></div></div>
+            </article>
+          </li>
+          <li class="tl-item" data-animate>
+            <div class="tl-marker"><span class="ltr">09</span></div>
+            <article class="tl-card">
+              <button type="button" class="tl-head" aria-expanded="false" aria-controls="tl-d9">
+                <span class="tl-title" data-i18n="pr9.t">إعداد التقرير</span>
+                <svg class="icon tl-chev" aria-hidden="true"><use href="#i-chevron"/></svg>
+              </button>
+              <div class="tl-details" id="tl-d9" role="region"><div class="tl-details-inner"><p data-i18n="pr9.d">إعداد تقرير التقييم وفق المعايير المعتمدة.</p></div></div>
+            </article>
+          </li>
+          <li class="tl-item" data-animate>
+            <div class="tl-marker"><span class="ltr">10</span></div>
+            <article class="tl-card">
+              <button type="button" class="tl-head" aria-expanded="false" aria-controls="tl-d10">
+                <span class="tl-title" data-i18n="pr10.t">إرسال مسودة للعميل</span>
+                <svg class="icon tl-chev" aria-hidden="true"><use href="#i-chevron"/></svg>
+              </button>
+              <div class="tl-details" id="tl-d10" role="region"><div class="tl-details-inner"><p data-i18n="pr10.d">إرسال مسودة التقرير للعميل للمراجعة والتأكد من صحة البيانات.</p></div></div>
+            </article>
+          </li>
+          <li class="tl-item" data-animate>
+            <div class="tl-marker"><span class="ltr">11</span></div>
+            <article class="tl-card">
+              <button type="button" class="tl-head" aria-expanded="false" aria-controls="tl-d11">
+                <span class="tl-title" data-i18n="pr11.t">اعتماد التقرير وإيداعه في «قيمة»</span>
+                <svg class="icon tl-chev" aria-hidden="true"><use href="#i-chevron"/></svg>
+              </button>
+              <div class="tl-details" id="tl-d11" role="region"><div class="tl-details-inner"><p data-i18n="pr11.d">اعتماد التقرير النهائي وإيداعه في منصة «قيمة».</p></div></div>
+            </article>
+          </li>
+          <li class="tl-item" data-animate>
+            <div class="tl-marker"><span class="ltr">12</span></div>
+            <article class="tl-card">
+              <button type="button" class="tl-head" aria-expanded="false" aria-controls="tl-d12">
+                <span class="tl-title" data-i18n="pr12.t">تسليم التقرير النهائي</span>
+                <svg class="icon tl-chev" aria-hidden="true"><use href="#i-chevron"/></svg>
+              </button>
+              <div class="tl-details" id="tl-d12" role="region"><div class="tl-details-inner"><p data-i18n="pr12.d">تسليم العميل التقرير النهائي المعتمد.</p></div></div>
+            </article>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ Urgent Valuation ============ -->
+    <section id="urgent" class="section">
+      <div class="container">
+        <div class="urgent-banner" data-animate>
+          <span class="urgent-icon" aria-hidden="true"><svg class="icon"><use href="#i-clock"/></svg></span>
+          <div class="urgent-text">
+            <h2 data-i18n="urgent.title">التقييم العقاري العاجل</h2>
+            <p data-i18n="urgent.text">خدمة تقييم عقاري سريعة للعملاء الذين لديهم احتياج عاجل، مقابل رسوم إضافية.</p>
+          </div>
+          <a href="#contact" class="btn btn-teal" data-i18n="urgent.cta">تواصل معنا</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Achievements ============ -->
+    <section id="achievements" class="section section-alt">
+      <div class="container narrow">
+        <div class="section-head" data-animate>
+          <p class="kicker"><span data-i18n="ach.kicker">سجلنا</span></p>
+          <h2 data-i18n="ach.title">إنجازاتنا</h2>
+        </div>
+        <div class="empty-state" data-animate>
+          <span class="card-ic" aria-hidden="true"><svg class="icon"><use href="#i-quality"/></svg></span>
+          <p data-i18n="ach.text">يتم حاليًا توثيق أحدث إنجازاتنا، وسيتم عرضها هنا قريبًا.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Partners ============ -->
+    <section id="partners" class="section">
+      <div class="container">
+        <div class="section-head" data-animate>
+          <p class="kicker"><span data-i18n="partners.title">شركاؤنا</span></p>
+          <h2 data-i18n="partners.title">شركاؤنا</h2>
+          <p class="lead" data-i18n="partners.note">مساحات جاهزة لعرض شعارات شركائنا.</p>
+        </div>
+        <div class="logo-grid">
+          <div class="logo-slot" data-animate><svg class="icon" aria-hidden="true"><use href="#i-building"/></svg><span data-i18n="partners.slot">شعار الشريك</span></div>
+          <div class="logo-slot" data-animate data-delay="60"><svg class="icon" aria-hidden="true"><use href="#i-building"/></svg><span data-i18n="partners.slot">شعار الشريك</span></div>
+          <div class="logo-slot" data-animate data-delay="120"><svg class="icon" aria-hidden="true"><use href="#i-building"/></svg><span data-i18n="partners.slot">شعار الشريك</span></div>
+          <div class="logo-slot" data-animate data-delay="180"><svg class="icon" aria-hidden="true"><use href="#i-building"/></svg><span data-i18n="partners.slot">شعار الشريك</span></div>
+          <div class="logo-slot" data-animate data-delay="240"><svg class="icon" aria-hidden="true"><use href="#i-building"/></svg><span data-i18n="partners.slot">شعار الشريك</span></div>
+          <div class="logo-slot" data-animate data-delay="300"><svg class="icon" aria-hidden="true"><use href="#i-building"/></svg><span data-i18n="partners.slot">شعار الشريك</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Clients ============ -->
+    <section id="clients" class="section section-alt">
+      <div class="container">
+        <div class="section-head" data-animate>
+          <h2 data-i18n="clients.title">عملاؤنا</h2>
+          <p class="lead" data-i18n="clients.note">مساحات جاهزة لعرض شعارات عملائنا.</p>
+        </div>
+        <div class="logo-grid cols-4">
+          <div class="logo-slot" data-animate><svg class="icon" aria-hidden="true"><use href="#i-building"/></svg><span data-i18n="clients.slot">شعار العميل</span></div>
+          <div class="logo-slot" data-animate data-delay="60"><svg class="icon" aria-hidden="true"><use href="#i-building"/></svg><span data-i18n="clients.slot">شعار العميل</span></div>
+          <div class="logo-slot" data-animate data-delay="120"><svg class="icon" aria-hidden="true"><use href="#i-building"/></svg><span data-i18n="clients.slot">شعار العميل</span></div>
+          <div class="logo-slot" data-animate data-delay="180"><svg class="icon" aria-hidden="true"><use href="#i-building"/></svg><span data-i18n="clients.slot">شعار العميل</span></div>
+          <div class="logo-slot" data-animate data-delay="240"><svg class="icon" aria-hidden="true"><use href="#i-building"/></svg><span data-i18n="clients.slot">شعار العميل</span></div>
+          <div class="logo-slot" data-animate data-delay="300"><svg class="icon" aria-hidden="true"><use href="#i-building"/></svg><span data-i18n="clients.slot">شعار العميل</span></div>
+          <div class="logo-slot" data-animate data-delay="360"><svg class="icon" aria-hidden="true"><use href="#i-building"/></svg><span data-i18n="clients.slot">شعار العميل</span></div>
+          <div class="logo-slot" data-animate data-delay="420"><svg class="icon" aria-hidden="true"><use href="#i-building"/></svg><span data-i18n="clients.slot">شعار العميل</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Contact ============ -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-head" data-animate>
+          <p class="kicker"><span data-i18n="contact.kicker">تواصل معنا</span></p>
+          <h2 data-i18n="contact.title">لنبدأ الحديث عن عقارك</h2>
+          <p class="lead" data-i18n="contact.lead">فريقنا جاهز للإجابة على استفساراتك وطلبات التقييم.</p>
+        </div>
+
+        <div class="contact-grid">
+          <aside class="contact-info" data-animate>
+            <ul>
+              <li><span class="ci-ic" aria-hidden="true"><svg class="icon"><use href="#i-globe"/></svg></span><div><small data-i18n="lbl2.website">الموقع الإلكتروني</small><a class="ltr" href="http://www.gomenassat.com" target="_blank" rel="noopener">www.gomenassat.com</a></div></li>
+              <li><span class="ci-ic" aria-hidden="true"><svg class="icon"><use href="#i-mail"/></svg></span><div><small data-i18n="lbl2.email">البريد الإلكتروني</small><a class="ltr" href="mailto:info@gomenassat.com">info@gomenassat.com</a></div></li>
+              <li><span class="ci-ic" aria-hidden="true"><svg class="icon"><use href="#i-phone"/></svg></span><div><small data-i18n="lbl2.phone">الهاتف</small><a class="ltr" href="tel:+966508404422">0508404422</a></div></li>
+              <li><span class="ci-ic" aria-hidden="true"><svg class="icon"><use href="#i-phone"/></svg></span><div><small data-i18n="lbl2.unified">الرقم الموحّد</small><a class="ltr" href="tel:920010094">920010094</a></div></li>
+              <li><span class="ci-ic" aria-hidden="true"><svg class="icon"><use href="#i-license"/></svg></span><div><small data-i18n="lbl2.license">رخصة التقييم</small><span class="ltr">13044</span></div></li>
+              <li><span class="ci-ic" aria-hidden="true"><svg class="icon"><use href="#i-shield"/></svg></span><div><small data-i18n="lbl2.membership">رقم العضوية</small><span class="ltr">1210000163</span></div></li>
+              <li><span class="ci-ic" aria-hidden="true"><svg class="icon"><use href="#i-at"/></svg></span><div><small data-i18n="lbl2.social">حساب التواصل</small><span class="ltr">gomenassatco</span></div></li>
+            </ul>
+          </aside>
+
+          <div class="contact-form-wrap" data-animate data-delay="150">
+            <form id="contactForm" class="contact-form" novalidate>
+              <div class="form-row">
+                <div class="field">
+                  <label for="fName" data-i18n="f.name">الاسم الكامل</label>
+                  <input type="text" id="fName" name="name" required data-i18n-ph="f.phName" placeholder="أدخل اسمك الكامل">
+                  <span class="field-error" aria-live="polite"></span>
+                </div>
+                <div class="field">
+                  <label for="fEmail" data-i18n="f.email">البريد الإلكتروني</label>
+                  <input type="email" id="fEmail" name="email" required data-i18n-ph="f.phEmail" placeholder="name@example.com" dir="ltr">
+                  <span class="field-error" aria-live="polite"></span>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="field">
+                  <label for="fPhone" data-i18n="f.phone">رقم الهاتف</label>
+                  <input type="tel" id="fPhone" name="phone" required data-i18n-ph="f.phPhone" placeholder="05XXXXXXXX" dir="ltr">
+                  <span class="field-error" aria-live="polite"></span>
+                </div>
+                <div class="field">
+                  <label for="fService" data-i18n="f.service">نوع الخدمة</label>
+                  <select id="fService" name="service" required>
+                    <option value="" data-i18n="f.optService">اختر نوع الخدمة</option>
+                    <option value="valuation" data-i18n="f.optValuation">تقييم عقاري</option>
+                    <option value="urgent" data-i18n="f.optUrgent">تقييم عاجل</option>
+                    <option value="consultation" data-i18n="f.optConsult">استشارة</option>
+                    <option value="other" data-i18n="f.optOther">أخرى</option>
+                  </select>
+                  <span class="field-error" aria-live="polite"></span>
+                </div>
+              </div>
+              <div class="field">
+                <label for="fMessage" data-i18n="f.message">الرسالة</label>
+                <textarea id="fMessage" name="message" rows="5" required data-i18n-ph="f.phMessage" placeholder="اكتب تفاصيل طلبك..."></textarea>
+                <span class="field-error" aria-live="polite"></span>
+              </div>
+              <button type="submit" class="btn btn-primary btn-lg btn-block">
+                <span data-i18n="f.send">إرسال الطلب</span>
+                <svg class="icon icon-arrow" aria-hidden="true"><use href="#i-send"/></svg>
+              </button>
+            </form>
+
+            <div class="form-success" id="formSuccess" hidden tabindex="-1">
+              <span class="success-ic" aria-hidden="true"><svg class="icon"><use href="#i-check"/></svg></span>
+              <h3 data-i18n="f.sucT">تم استلام طلبك بنجاح</h3>
+              <p data-i18n="f.sucD">سيتواصل معك فريقنا في أقرب وقت ممكن.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ Footer ============ -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="f-brand">
+        <a href="#home" class="brand brand-footer" data-media>
+          <img src="assets/logo.png" alt="شعار منصّات للتقييم العقاري" data-fallback>
+          <span class="logo-fallback" aria-hidden="true"><b>منصّات</b><i>MENASSAT</i></span>
+        </a>
+        <p data-i18n="footer.about">شركة سعودية متخصصة في خدمات التقييم العقاري الاحترافية عالية الدقة وفق المعايير المعترف بها محليًا ودوليًا.</p>
+      </div>
+      <nav class="f-col" aria-label="روابط سريعة">
+        <h3 data-i18n="footer.links">روابط سريعة</h3>
+        <ul>
+          <li><a href="#about" data-i18n="nav.about">من نحن</a></li>
+          <li><a href="#services" data-i18n="nav.services">خدماتنا</a></li>
+          <li><a href="#process" data-i18n="nav.process">مراحل التقييم</a></li>
+          <li><a href="#accreditations" data-i18n="nav.accreditations">الاعتمادات</a></li>
+          <li><a href="#contact" data-i18n="nav.contact">تواصل معنا</a></li>
+        </ul>
+      </nav>
+      <div class="f-col">
+        <h3 data-i18n="footer.contact">معلومات التواصل</h3>
+        <ul>
+          <li><a class="ltr" href="mailto:info@gomenassat.com">info@gomenassat.com</a></li>
+          <li><a class="ltr" href="tel:+966508404422">0508404422</a></li>
+          <li><a class="ltr" href="tel:920010094">920010094</a></li>
+          <li><a class="ltr" href="http://www.gomenassat.com" target="_blank" rel="noopener">www.gomenassat.com</a></li>
+        </ul>
+      </div>
+      <div class="f-col">
+        <h3 data-i18n="footer.licenses">التراخيص والعضويات</h3>
+        <ul>
+          <li><span data-i18n="footer.flLicense">رخصة التقييم العقاري:</span> <b class="ltr">13044</b></li>
+          <li><span data-i18n="footer.flMembership">عضوية الهيئة:</span> <b class="ltr">1210000163</b></li>
+          <li><span data-i18n="footer.flUnified">الرقم الموحّد:</span> <b class="ltr">920010094</b></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© <span id="year">2025</span> <span data-i18n="footer.rights">منصّات للتقييم العقاري — جميع الحقوق محفوظة.</span></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
